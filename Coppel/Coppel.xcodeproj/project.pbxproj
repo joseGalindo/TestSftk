@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FCB3A5D2A7005C556311C8D /* Pods_Coppel_CoppelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7CB62A5240130B72C75C3 /* Pods_Coppel_CoppelUITests.framework */; };
 		669938092AFEF09500845505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669938082AFEF09500845505 /* AppDelegate.swift */; };
 		6699380B2AFEF09500845505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380A2AFEF09500845505 /* SceneDelegate.swift */; };
 		6699380D2AFEF09500845505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380C2AFEF09500845505 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		669938152AFEF0A100845505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669938132AFEF0A100845505 /* LaunchScreen.storyboard */; };
 		669938202AFEF0A200845505 /* CoppelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699381F2AFEF0A200845505 /* CoppelTests.swift */; };
 		6699382B2AFEF0A200845505 /* CoppelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699382A2AFEF0A200845505 /* CoppelUITests.swift */; };
+		AA5899277872BE58A561B47B /* Pods_Coppel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA402F0BF08E63239D021528 /* Pods_Coppel.framework */; };
+		CFC7D518372069878CE46DB1 /* Pods_CoppelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28A1318FD079FE38A3A3127 /* Pods_CoppelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33ECD08B3F6AAE5C8BD88947 /* Pods-Coppel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coppel.debug.xcconfig"; path = "Target Support Files/Pods-Coppel/Pods-Coppel.debug.xcconfig"; sourceTree = "<group>"; };
+		3972D6E876A231C4AF273183 /* Pods-Coppel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coppel.release.xcconfig"; path = "Target Support Files/Pods-Coppel/Pods-Coppel.release.xcconfig"; sourceTree = "<group>"; };
+		49A29B09DA9FA5C19353F6A8 /* Pods-Coppel-CoppelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coppel-CoppelUITests.release.xcconfig"; path = "Target Support Files/Pods-Coppel-CoppelUITests/Pods-Coppel-CoppelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		669938052AFEF09500845505 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669938082AFEF09500845505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6699380A2AFEF09500845505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		669938262AFEF0A200845505 /* CoppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoppelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6699382A2AFEF0A200845505 /* CoppelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelUITests.swift; sourceTree = "<group>"; };
 		6699382C2AFEF0A200845505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4644DFDE607E597EA74409 /* Pods-CoppelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoppelTests.release.xcconfig"; path = "Target Support Files/Pods-CoppelTests/Pods-CoppelTests.release.xcconfig"; sourceTree = "<group>"; };
+		87A9FBE391720E0C9C2C65F4 /* Pods-Coppel-CoppelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coppel-CoppelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coppel-CoppelUITests/Pods-Coppel-CoppelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99C7CB62A5240130B72C75C3 /* Pods_Coppel_CoppelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coppel_CoppelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28A1318FD079FE38A3A3127 /* Pods_CoppelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoppelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA402F0BF08E63239D021528 /* Pods_Coppel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coppel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE063FE260438313556334D /* Pods-CoppelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoppelTests.debug.xcconfig"; path = "Target Support Files/Pods-CoppelTests/Pods-CoppelTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5899277872BE58A561B47B /* Pods_Coppel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC7D518372069878CE46DB1 /* Pods_CoppelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCB3A5D2A7005C556311C8D /* Pods_Coppel_CoppelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				6699381E2AFEF0A200845505 /* CoppelTests */,
 				669938292AFEF0A200845505 /* CoppelUITests */,
 				669938062AFEF09500845505 /* Products */,
+				825C3F08FB50AB425A58E56D /* Pods */,
+				BC1D343DB1EA41DDC2E6E3C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = CoppelUITests;
 			sourceTree = "<group>";
 		};
+		825C3F08FB50AB425A58E56D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33ECD08B3F6AAE5C8BD88947 /* Pods-Coppel.debug.xcconfig */,
+				3972D6E876A231C4AF273183 /* Pods-Coppel.release.xcconfig */,
+				87A9FBE391720E0C9C2C65F4 /* Pods-Coppel-CoppelUITests.debug.xcconfig */,
+				49A29B09DA9FA5C19353F6A8 /* Pods-Coppel-CoppelUITests.release.xcconfig */,
+				EEE063FE260438313556334D /* Pods-CoppelTests.debug.xcconfig */,
+				6B4644DFDE607E597EA74409 /* Pods-CoppelTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC1D343DB1EA41DDC2E6E3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA402F0BF08E63239D021528 /* Pods_Coppel.framework */,
+				99C7CB62A5240130B72C75C3 /* Pods_Coppel_CoppelUITests.framework */,
+				E28A1318FD079FE38A3A3127 /* Pods_CoppelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6699382F2AFEF0A200845505 /* Build configuration list for PBXNativeTarget "Coppel" */;
 			buildPhases = (
+				F33F6D4247484FA633D3266E /* [CP] Check Pods Manifest.lock */,
 				669938012AFEF09500845505 /* Sources */,
 				669938022AFEF09500845505 /* Frameworks */,
 				669938032AFEF09500845505 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 669938322AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelTests" */;
 			buildPhases = (
+				52C22CA8011478F6AB018504 /* [CP] Check Pods Manifest.lock */,
 				669938172AFEF0A200845505 /* Sources */,
 				669938182AFEF0A200845505 /* Frameworks */,
 				669938192AFEF0A200845505 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 669938352AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelUITests" */;
 			buildPhases = (
+				716608DDA6B7FBB92FC77F2F /* [CP] Check Pods Manifest.lock */,
 				669938222AFEF0A200845505 /* Sources */,
 				669938232AFEF0A200845505 /* Frameworks */,
 				669938242AFEF0A200845505 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C22CA8011478F6AB018504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoppelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716608DDA6B7FBB92FC77F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coppel-CoppelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33F6D4247484FA633D3266E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coppel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		669938012AFEF09500845505 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		669938302AFEF0A200845505 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33ECD08B3F6AAE5C8BD88947 /* Pods-Coppel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		669938312AFEF0A200845505 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3972D6E876A231C4AF273183 /* Pods-Coppel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		669938332AFEF0A200845505 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE063FE260438313556334D /* Pods-CoppelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		669938342AFEF0A200845505 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4644DFDE607E597EA74409 /* Pods-CoppelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		669938362AFEF0A200845505 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A9FBE391720E0C9C2C65F4 /* Pods-Coppel-CoppelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		669938372AFEF0A200845505 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A29B09DA9FA5C19353F6A8 /* Pods-Coppel-CoppelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
