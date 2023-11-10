@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		669938092AFEF09500845505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669938082AFEF09500845505 /* AppDelegate.swift */; };
+		6699380B2AFEF09500845505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380A2AFEF09500845505 /* SceneDelegate.swift */; };
+		6699380D2AFEF09500845505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380C2AFEF09500845505 /* ViewController.swift */; };
+		669938102AFEF09500845505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6699380E2AFEF09500845505 /* Main.storyboard */; };
+		669938122AFEF0A100845505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669938112AFEF0A100845505 /* Assets.xcassets */; };
+		669938152AFEF0A100845505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669938132AFEF0A100845505 /* LaunchScreen.storyboard */; };
+		669938202AFEF0A200845505 /* CoppelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699381F2AFEF0A200845505 /* CoppelTests.swift */; };
+		6699382B2AFEF0A200845505 /* CoppelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699382A2AFEF0A200845505 /* CoppelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6699381C2AFEF0A200845505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669937FD2AFEF09500845505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669938042AFEF09500845505;
+			remoteInfo = Coppel;
+		};
+		669938272AFEF0A200845505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669937FD2AFEF09500845505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669938042AFEF09500845505;
+			remoteInfo = Coppel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		669938052AFEF09500845505 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669938082AFEF09500845505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6699380A2AFEF09500845505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6699380C2AFEF09500845505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6699380F2AFEF09500845505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669938112AFEF0A100845505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669938142AFEF0A100845505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		669938162AFEF0A100845505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6699381B2AFEF0A200845505 /* CoppelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoppelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6699381F2AFEF0A200845505 /* CoppelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelTests.swift; sourceTree = "<group>"; };
+		669938212AFEF0A200845505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669938262AFEF0A200845505 /* CoppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoppelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6699382A2AFEF0A200845505 /* CoppelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelUITests.swift; sourceTree = "<group>"; };
+		6699382C2AFEF0A200845505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669938022AFEF09500845505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938182AFEF0A200845505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938232AFEF0A200845505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669937FC2AFEF09500845505 = {
+			isa = PBXGroup;
+			children = (
+				669938072AFEF09500845505 /* Coppel */,
+				6699381E2AFEF0A200845505 /* CoppelTests */,
+				669938292AFEF0A200845505 /* CoppelUITests */,
+				669938062AFEF09500845505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669938062AFEF09500845505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669938052AFEF09500845505 /* Coppel.app */,
+				6699381B2AFEF0A200845505 /* CoppelTests.xctest */,
+				669938262AFEF0A200845505 /* CoppelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669938072AFEF09500845505 /* Coppel */ = {
+			isa = PBXGroup;
+			children = (
+				669938082AFEF09500845505 /* AppDelegate.swift */,
+				6699380A2AFEF09500845505 /* SceneDelegate.swift */,
+				6699380C2AFEF09500845505 /* ViewController.swift */,
+				6699380E2AFEF09500845505 /* Main.storyboard */,
+				669938112AFEF0A100845505 /* Assets.xcassets */,
+				669938132AFEF0A100845505 /* LaunchScreen.storyboard */,
+				669938162AFEF0A100845505 /* Info.plist */,
+			);
+			path = Coppel;
+			sourceTree = "<group>";
+		};
+		6699381E2AFEF0A200845505 /* CoppelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6699381F2AFEF0A200845505 /* CoppelTests.swift */,
+				669938212AFEF0A200845505 /* Info.plist */,
+			);
+			path = CoppelTests;
+			sourceTree = "<group>";
+		};
+		669938292AFEF0A200845505 /* CoppelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6699382A2AFEF0A200845505 /* CoppelUITests.swift */,
+				6699382C2AFEF0A200845505 /* Info.plist */,
+			);
+			path = CoppelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669938042AFEF09500845505 /* Coppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6699382F2AFEF0A200845505 /* Build configuration list for PBXNativeTarget "Coppel" */;
+			buildPhases = (
+				669938012AFEF09500845505 /* Sources */,
+				669938022AFEF09500845505 /* Frameworks */,
+				669938032AFEF09500845505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coppel;
+			productName = Coppel;
+			productReference = 669938052AFEF09500845505 /* Coppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6699381A2AFEF0A200845505 /* CoppelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669938322AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelTests" */;
+			buildPhases = (
+				669938172AFEF0A200845505 /* Sources */,
+				669938182AFEF0A200845505 /* Frameworks */,
+				669938192AFEF0A200845505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6699381D2AFEF0A200845505 /* PBXTargetDependency */,
+			);
+			name = CoppelTests;
+			productName = CoppelTests;
+			productReference = 6699381B2AFEF0A200845505 /* CoppelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		669938252AFEF0A200845505 /* CoppelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669938352AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelUITests" */;
+			buildPhases = (
+				669938222AFEF0A200845505 /* Sources */,
+				669938232AFEF0A200845505 /* Frameworks */,
+				669938242AFEF0A200845505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669938282AFEF0A200845505 /* PBXTargetDependency */,
+			);
+			name = CoppelUITests;
+			productName = CoppelUITests;
+			productReference = 669938262AFEF0A200845505 /* CoppelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669937FD2AFEF09500845505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					669938042AFEF09500845505 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6699381A2AFEF0A200845505 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 669938042AFEF09500845505;
+					};
+					669938252AFEF0A200845505 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 669938042AFEF09500845505;
+					};
+				};
+			};
+			buildConfigurationList = 669938002AFEF09500845505 /* Build configuration list for PBXProject "Coppel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 669937FC2AFEF09500845505;
+			productRefGroup = 669938062AFEF09500845505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669938042AFEF09500845505 /* Coppel */,
+				6699381A2AFEF0A200845505 /* CoppelTests */,
+				669938252AFEF0A200845505 /* CoppelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669938032AFEF09500845505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669938152AFEF0A100845505 /* LaunchScreen.storyboard in Resources */,
+				669938122AFEF0A100845505 /* Assets.xcassets in Resources */,
+				669938102AFEF09500845505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938192AFEF0A200845505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938242AFEF0A200845505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669938012AFEF09500845505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6699380D2AFEF09500845505 /* ViewController.swift in Sources */,
+				669938092AFEF09500845505 /* AppDelegate.swift in Sources */,
+				6699380B2AFEF09500845505 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938172AFEF0A200845505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669938202AFEF0A200845505 /* CoppelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669938222AFEF0A200845505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6699382B2AFEF0A200845505 /* CoppelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6699381D2AFEF0A200845505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669938042AFEF09500845505 /* Coppel */;
+			targetProxy = 6699381C2AFEF0A200845505 /* PBXContainerItemProxy */;
+		};
+		669938282AFEF0A200845505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669938042AFEF09500845505 /* Coppel */;
+			targetProxy = 669938272AFEF0A200845505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6699380E2AFEF09500845505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6699380F2AFEF09500845505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		669938132AFEF0A100845505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669938142AFEF0A100845505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6699382D2AFEF0A200845505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6699382E2AFEF0A200845505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669938302AFEF0A200845505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = Coppel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.Coppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669938312AFEF0A200845505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = Coppel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.Coppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		669938332AFEF0A200845505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = CoppelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.CoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coppel.app/Coppel";
+			};
+			name = Debug;
+		};
+		669938342AFEF0A200845505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = CoppelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.CoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coppel.app/Coppel";
+			};
+			name = Release;
+		};
+		669938362AFEF0A200845505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = CoppelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.CoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coppel;
+			};
+			name = Debug;
+		};
+		669938372AFEF0A200845505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47588266MJ;
+				INFOPLIST_FILE = CoppelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.CoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coppel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669938002AFEF09500845505 /* Build configuration list for PBXProject "Coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6699382D2AFEF0A200845505 /* Debug */,
+				6699382E2AFEF0A200845505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6699382F2AFEF0A200845505 /* Build configuration list for PBXNativeTarget "Coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669938302AFEF0A200845505 /* Debug */,
+				669938312AFEF0A200845505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669938322AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669938332AFEF0A200845505 /* Debug */,
+				669938342AFEF0A200845505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669938352AFEF0A200845505 /* Build configuration list for PBXNativeTarget "CoppelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669938362AFEF0A200845505 /* Debug */,
+				669938372AFEF0A200845505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669937FD2AFEF09500845505 /* Project object */;
+}
