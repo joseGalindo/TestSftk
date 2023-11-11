@@ -10,7 +10,7 @@
 		1FCB3A5D2A7005C556311C8D /* Pods_Coppel_CoppelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7CB62A5240130B72C75C3 /* Pods_Coppel_CoppelUITests.framework */; };
 		669938092AFEF09500845505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669938082AFEF09500845505 /* AppDelegate.swift */; };
 		6699380B2AFEF09500845505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380A2AFEF09500845505 /* SceneDelegate.swift */; };
-		6699380D2AFEF09500845505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380C2AFEF09500845505 /* ViewController.swift */; };
+		6699380D2AFEF09500845505 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699380C2AFEF09500845505 /* LoginViewController.swift */; };
 		669938102AFEF09500845505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6699380E2AFEF09500845505 /* Main.storyboard */; };
 		669938122AFEF0A100845505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669938112AFEF0A100845505 /* Assets.xcassets */; };
 		669938152AFEF0A100845505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669938132AFEF0A100845505 /* LaunchScreen.storyboard */; };
@@ -44,7 +44,7 @@
 		669938052AFEF09500845505 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669938082AFEF09500845505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6699380A2AFEF09500845505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6699380C2AFEF09500845505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6699380C2AFEF09500845505 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6699380F2AFEF09500845505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		669938112AFEF0A100845505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669938142AFEF0A100845505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,12 +116,11 @@
 		669938072AFEF09500845505 /* Coppel */ = {
 			isa = PBXGroup;
 			children = (
+				6699383F2AFEFB0600845505 /* PresentationLayer */,
 				669938082AFEF09500845505 /* AppDelegate.swift */,
 				6699380A2AFEF09500845505 /* SceneDelegate.swift */,
-				6699380C2AFEF09500845505 /* ViewController.swift */,
-				6699380E2AFEF09500845505 /* Main.storyboard */,
+				6699380C2AFEF09500845505 /* LoginViewController.swift */,
 				669938112AFEF0A100845505 /* Assets.xcassets */,
-				669938132AFEF0A100845505 /* LaunchScreen.storyboard */,
 				669938162AFEF0A100845505 /* Info.plist */,
 			);
 			path = Coppel;
@@ -145,6 +144,23 @@
 			path = CoppelUITests;
 			sourceTree = "<group>";
 		};
+		6699383E2AFEFABF00845505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				669938132AFEF0A100845505 /* LaunchScreen.storyboard */,
+				6699380E2AFEF09500845505 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6699383F2AFEFB0600845505 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6699383E2AFEFABF00845505 /* Views */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
 		825C3F08FB50AB425A58E56D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +171,6 @@
 				EEE063FE260438313556334D /* Pods-CoppelTests.debug.xcconfig */,
 				6B4644DFDE607E597EA74409 /* Pods-CoppelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -371,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6699380D2AFEF09500845505 /* ViewController.swift in Sources */,
+				6699380D2AFEF09500845505 /* LoginViewController.swift in Sources */,
 				669938092AFEF09500845505 /* AppDelegate.swift in Sources */,
 				6699380B2AFEF09500845505 /* SceneDelegate.swift in Sources */,
 			);
