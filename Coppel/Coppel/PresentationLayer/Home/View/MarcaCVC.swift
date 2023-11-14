@@ -36,8 +36,9 @@ class MarcaCVC: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configureCell(brand: String) {
-        brandName.text = brand
+    func configureCell(brand: Brand) {
+        brandName.text = brand.name
+        imageView.image = UIImage(named: brand.imagen)
     }
 }
 
@@ -45,10 +46,6 @@ class MarcaCVC: UICollectionViewCell {
 // MARK: - UI Setup
 extension MarcaCVC {
     private func setupUI() {
-        self.contentView.layer.borderWidth = 2
-        self.contentView.layer.borderColor = UIColor.black.cgColor
-        self.contentView.layer.cornerRadius = 6
-        
         self.imageView.layer.borderWidth = 1
         self.imageView.layer.borderColor = UIColor.lightGray.cgColor
         

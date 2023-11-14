@@ -25,6 +25,7 @@ class HomeCoordinator: Coordinator {
     func start() {
         let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
         let homeController = storyBoard.instantiateViewController(identifier: "HomeViewController") as HomeViewController
+        navigationController.modalPresentationStyle = .fullScreen
         let viewModel = HomeViewModel()
         //let viewModel = BreedsViewModel(breedService: DogServices(),
         homeController.viewModel = viewModel

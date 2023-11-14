@@ -158,40 +158,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P4S-LY-Rht">
-                                <rect key="frame" x="0.0" y="662" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="732" width="414" height="130"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-e8-t5R">
-                                        <rect key="frame" x="5" y="5" width="404" height="190"/>
+                                        <rect key="frame" x="5" y="5" width="404" height="120"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zX8-aB-RBZ">
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zX8-aB-RBZ">
                                             <size key="itemSize" width="128" height="128"/>
+                                            <size key="estimatedItemSize" width="128" height="128"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
-                                        <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ciQ-3g-Tf0">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="SEm-qh-00U">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </collectionViewCellContentView>
-                                            </collectionViewCell>
-                                        </cells>
+                                        <cells/>
                                     </collectionView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Jxl-e8-t5R" secondAttribute="trailing" constant="5" id="KL4-tg-S5q"/>
-                                    <constraint firstAttribute="height" constant="200" id="TK2-eY-JxV"/>
+                                    <constraint firstAttribute="height" constant="130" id="TK2-eY-JxV"/>
                                     <constraint firstItem="Jxl-e8-t5R" firstAttribute="leading" secondItem="P4S-LY-Rht" secondAttribute="leading" constant="5" id="qfJ-JR-DvK"/>
                                     <constraint firstItem="Jxl-e8-t5R" firstAttribute="top" secondItem="P4S-LY-Rht" secondAttribute="top" constant="5" id="uCE-gE-Imi"/>
                                     <constraint firstAttribute="bottom" secondItem="Jxl-e8-t5R" secondAttribute="bottom" constant="5" id="zX5-p4-RnL"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1c-lm-2Sg">
-                                <rect key="frame" x="0.0" y="244" width="414" height="418"/>
+                                <rect key="frame" x="0.0" y="244" width="414" height="488"/>
                                 <connections>
                                     <segue destination="VvK-BQ-3Ix" kind="embed" id="8uz-A3-SDf"/>
                                 </connections>
@@ -234,11 +226,11 @@
             <objects>
                 <viewController id="VvK-BQ-3Ix" customClass="DestacadosViewController" customModule="Coppel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fTP-1g-vjf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="418"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebV-T8-8JR">
-                                <rect key="frame" x="0.0" y="44" width="414" height="374"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="444"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JBb-IE-Ma9">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
@@ -259,7 +251,7 @@
                                         </constraints>
                                     </view>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HEf-WU-dyU">
-                                        <rect key="frame" x="0.0" y="30" width="414" height="344"/>
+                                        <rect key="frame" x="0.0" y="30" width="414" height="414"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="koF-1a-4uM">
                                             <size key="itemSize" width="128" height="128"/>
@@ -300,6 +292,9 @@
                             <constraint firstItem="ebV-T8-8JR" firstAttribute="leading" secondItem="3af-jl-FVI" secondAttribute="leading" id="rI6-rr-TrF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="carruselDestacados" destination="HEf-WU-dyU" id="pur-Pl-BA5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6Y-SJ-9WL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
