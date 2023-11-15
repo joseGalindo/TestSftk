@@ -32,6 +32,8 @@ class DestacadoCVC: UICollectionViewCell {
         self.tipoOferta.text = "oferta Exclusiva"
         self.imagenPromo.image = UIImage(named: value.urlImage)
         self.descripcion.text = value.descriptionName
+        self.precioContado.text = "$" + value.promotionPrice
+        self.precioOriginal.text = "$" + value.regularPrice
         
     }
 

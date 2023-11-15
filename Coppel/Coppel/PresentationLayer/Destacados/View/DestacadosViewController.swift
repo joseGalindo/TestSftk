@@ -31,8 +31,14 @@ class DestacadosViewController: UIViewController {
 extension DestacadosViewController {
     func setupUI() {
         carruselDestacados.dataSource = self
+        carruselDestacados.delegate = self
+        let flowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = .horizontal
+        flowLayout.minimumLineSpacing = 5
+        carruselDestacados.collectionViewLayout = flowLayout
         let uinib = UINib(nibName: DestacadoCVC.nibIdentifier, bundle: nil)
         carruselDestacados.register(uinib, forCellWithReuseIdentifier: DestacadoCVC.nibIdentifier)
+    
     }
 }
 
@@ -61,5 +67,14 @@ extension DestacadosViewController: UICollectionViewDataSource {
         return cell
     }
     
+    
+}
+
+extension DestacadosViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let size = collectionView.bounds
+        return CGSize(width: 280, height: size.height - 10)
+    }
     
 }

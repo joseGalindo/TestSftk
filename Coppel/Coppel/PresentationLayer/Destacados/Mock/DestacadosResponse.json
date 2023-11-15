@@ -1,27 +1,27 @@
 [
-    {"descriptionName":"",
-    "regularPrice": "",
-    "promotionPrice": "",
-    "urlImage": ""
+    {"descriptionName":"Este es un telefono Apple",
+    "regularPrice": "20000",
+    "promotionPrice": "20000",
+    "urlImage": "placeHolder"
     },
-    {"descriptionName":"",
-    "regularPrice": "",
-    "promotionPrice": "",
-    "urlImage": ""
+    {"descriptionName":"Esto es un Huawei",
+    "regularPrice": "20000",
+    "promotionPrice": "20000",
+    "urlImage": "placeHolder"
     },
-    {"descriptionName":"",
-    "regularPrice": "",
-    "promotionPrice": "",
-    "urlImage": ""
+    {"descriptionName":"Telefono Samsung",
+    "regularPrice": "20000",
+    "promotionPrice": "20000",
+    "urlImage": "placeHolder"
     },
-    {"descriptionName":"",
-    "regularPrice": "",
-    "promotionPrice": "",
-    "urlImage": ""
+    {"descriptionName":"Telefono Motorola",
+    "regularPrice": "10000",
+    "promotionPrice": "10000",
+    "urlImage": "placeHolder"
     },
-    {"descriptionName":"",
-    "regularPrice": "",
-    "promotionPrice": "",
-    "urlImage": ""
+    {"descriptionName":"Sony Ericsson",
+    "regularPrice": "5000",
+    "promotionPrice": "5000",
+    "urlImage": "placeHolder"
     }
 ]

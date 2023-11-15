@@ -236,7 +236,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los más vendidos -&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va3-Cx-l7v">
-                                                <rect key="frame" x="0.0" y="0.0" width="159" height="30"/>
+                                                <rect key="frame" x="15" y="0.0" width="159" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -247,28 +247,14 @@
                                             <constraint firstItem="va3-Cx-l7v" firstAttribute="top" secondItem="JBb-IE-Ma9" secondAttribute="top" id="HkP-hh-NqQ"/>
                                             <constraint firstAttribute="height" constant="30" id="S3L-xu-PdF"/>
                                             <constraint firstAttribute="bottom" secondItem="va3-Cx-l7v" secondAttribute="bottom" id="lom-Kh-uUc"/>
-                                            <constraint firstItem="va3-Cx-l7v" firstAttribute="leading" secondItem="JBb-IE-Ma9" secondAttribute="leading" id="osw-ad-dwm"/>
+                                            <constraint firstItem="va3-Cx-l7v" firstAttribute="leading" secondItem="JBb-IE-Ma9" secondAttribute="leading" constant="15" id="osw-ad-dwm"/>
                                         </constraints>
                                     </view>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HEf-WU-dyU">
                                         <rect key="frame" x="0.0" y="30" width="414" height="414"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="koF-1a-4uM">
-                                            <size key="itemSize" width="128" height="128"/>
-                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        </collectionViewFlowLayout>
-                                        <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sUw-xK-YT5">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="MWE-cR-q04">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </collectionViewCellContentView>
-                                            </collectionViewCell>
-                                        </cells>
+                                        <collectionViewLayout key="collectionViewLayout" id="ukt-vU-0aJ"/>
+                                        <cells/>
                                     </collectionView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

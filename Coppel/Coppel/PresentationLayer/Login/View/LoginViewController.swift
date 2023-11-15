@@ -24,7 +24,6 @@ class LoginViewController: UIViewController {
         viewModel = LoginViewModel(self)
         bindModel()
         setupUI()
-        
     }
 
     
@@ -37,11 +36,14 @@ class LoginViewController: UIViewController {
 // MARK: - UITextFieldsDelegates
 extension LoginViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let text = textField.text! as NSString
+        let newString = text.replacingCharacters(in: range, with: string)
         if textField == emailTextField {
-            viewModel.userInput.send(textField.text ?? "")
+            viewModel.userInput.send(newString)
         }
         if textField == passwordTextField {
-            viewModel.passwdInput.send(textField.text ?? "")
+            viewModel.passwdInput.send(newString)
         }
         return true
     }
